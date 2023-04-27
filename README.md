@@ -33,12 +33,14 @@ Step 3: Initialize the weights for the 2 layer MLP with 2 Hidden neuron
         and 1 output neuron
 	
 Step 4: Repeat the  iteration  until the losses become constant and minimum
+```
               (i)  Compute the output using forward pass output
               (ii) Compute the error  
 	      (iii) Compute the change in weight ‘dw’ by using backward 
                     propagation algorithm.
               (iv) Modify the weight as per delta rule.
               (v)   Append the losses in a list
+```
 Step 5 : Test for the XOR patterns.
 
 ## PROGRAM
